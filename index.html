@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c1d385ce8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           
+            <nav>
+                <p class="demo">
+                    <span>S</span>ouvik's <span>P</span>ortfolio.
+                </p>
+                <ul id="sidemenu">
+                    <li><a href='#header'>HOME</a></li>
+                    <li><a href='#about'>ABOUT</a></li>
+                    <li><a href='#services'>SKILLS</a></li>
+                    <li><a href='#portfolio'>PORTFOLIO</a></li>
+                    <li><a href='#contact'>MY CONTACTS</a></li>
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+                
+            </nav>
+            <div class="header-text">
+                <h1>Hi,I'm <span>Souvik</span> Banerjee from Hooghly
+                    <br>
+                <p>A thirsty<span> BCA</span> student for Knowledge from <span>Techno India Hooghly Campus.</span></p></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------------------- About ------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="unnamed.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="about-me">As a fresher I'm very much interested to know some unique knowledge,In future which is act likes a trigger point to me to establishing my carrer in the IT fields.Additionally hardworking is my one of the most crucial strength by which i can overcome all the problems from the past and also be ready to fight with the upcoming one.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('career growth')">Career Growth</p>
+                    </div>
+                    <div class="tab-contents activetab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>Expert in C & Python.</li>
+                            <li><span>Web Devolopment</span><br>devolop websites by using Html,Css,Javascript.</li>
+                            <li><span>Backend Devolopment</span><br>Comfortable with DBMS.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2019</span><br>Secondary Examination.<br>(Bandel S.t Johns High School)</li>
+                            <li><span>2020-2021</span><br>Higher Secondary Examination.<br>(Hooghly Collegiate High School)</li>
+                            <li><span>2021-2024</span><br>Bca.<br>(Techno India Hooghly Campus)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="career growth"> 
+                        <ul>
+                            <li><span>85.28%</span><br>Madhyamik Examination.</li>
+                            <li><span>89%</span><br>Higher Secondary Examination.</li>
+                            <li><span>87%</span><br>Bca 1st Year.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------services--------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A car details website is under processing.It will make by using Html,Css,Javascript. </p>
+                    <button><a href="#">Learn More</a></button>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Game Devolopement</h2>
+                    <p>Some Exciting Games will devolop using Python,until the devoloping process will finished please stay tuned to us.</p>
+                    <button><a href="#">Learn More</a></button>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Devopment</h2>
+                    <p>By using DBMS we can creat a perfect backend support for a website.</p>
+                    <button><a href="#">Learn More</a></button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfilio-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My MileStones</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                      <h2>Coursera Certificates</h2>
+                      <p>Here is present my all coursera certificates some of those are already done and lefts are in progress. </p>
+                      <button><a href="Coursera DZ4V5HXGUFPD.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                       <h2>Diploma Certificate</h2>
+                       <p>I completed my 1 year diploma course in Information Technology from Bandel Youth Training Center. Tap the 'View' Button to see it.</p>
+                       <button><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                       <h2>Other Websites Certificates</h2>
+                       <p>I was very much excited about some heart touching courses , that's why i can explored some courses through some various sites.</p>
+                       <button><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></button>
+                    </div>
+                </div>
+
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+    <!-------------------------Contact Section---------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> <span>Email ID:</span> <br>souvikbanerjee241@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> <span>Phone No:</span><br>7439497726</p>
+                    <div class="socialicons">
+                        <p><span>Visit Me Also:</span></p>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="My cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Write Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Opinion"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="copy">
+            <p>Made by Souvik Banerjee.Stay tuned with me <i class="fa-solid fa-heart-pulse"></i> <i class="fa-solid fa-face-smile"></i>.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu
+        {
+            sidemenu.style.right ="0";
+        }
+        function closemenu
+        {
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby4oZA0139XqzDfFT_TmfZsrFrRymhI8KPB4F7Ai6m369LXdTLHB_m-PR4UxHdRuVn7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Thanks For Your Feedback."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
